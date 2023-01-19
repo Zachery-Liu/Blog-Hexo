@@ -1,7 +1,6 @@
 ---
 title: about
 date: 2023-01-19 19:58:09
-type: about
 ---
 
 # 我是谁
