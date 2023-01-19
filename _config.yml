@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'ZacheryLiu's Blog'
+title:
 subtitle: ''
 description: ''
 keywords:
-author: ZacheryLiu
-language: cn
+author: 
+language: 
 timezone: ''
 
 # URL
