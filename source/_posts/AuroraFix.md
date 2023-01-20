@@ -50,14 +50,16 @@ type: post
 
 在翻issue的过程中发现，有人指出这种写法是不对的 (当时还在解决Vercel的404问题，就没太注意，所以Issue链接也找不到了)
 
-应该改为 `/post/:title` 而不应该加上html后缀。
+应该改为 `/post/:title/` 而不应该加上html后缀。
+
+(注意最后那个斜杠不要少了，要不然一刷新就下载页面了)
 
 
 ```yml
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://tridiamond.tech
-permalink: /post/:title
+permalink: /post/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
