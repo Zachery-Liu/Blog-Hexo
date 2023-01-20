@@ -117,7 +117,7 @@ gitalk:
   language: cn
   distractionFreeMode: true
   recentComment: true
-  proxy: ''
+  proxy: 'https://githuboauth.api.wkn.icu/github_access_token'
 
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
