@@ -106,10 +106,10 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: false
+  enable: true
   autoExpand: true
-  clientID: ''
-  clientSecret: ''
+  clientID: '9d2b42022c11611b1266'
+  clientSecret: '47a73767382b890f0b3c549719b732eafa2f5aab'
   repo: 'wkn.icu-comments'
   owner: 'Zachery-Liu'
   admin: ['Zachery-Liu']
@@ -122,7 +122,7 @@ gitalk:
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: true
+  enable: false
   app_id: E2Xc8cTlEbwYXKflfYhhLhjD-gzGzoHsz
   app_key: EcPxs5t5jF2VhcS7lS9lWv4r
   avatar: 'retro'
