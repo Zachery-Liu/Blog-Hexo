@@ -2,7 +2,6 @@
 title: 解决Aurora主题的若干问题的方法
 date: 2023-01-20 18:05:02
 tags: [教程,Hexo,建站]
-feature: true
 cover: https://s1.ax1x.com/2023/01/20/pSGAKE9.jpg
 type: post
 ---
@@ -68,14 +67,13 @@ pretty_urls:
 
 # About 404的解决
 
-其实很简单，只需要在上面加上`type: about`就能很好解决。
+其实很简单，只需要在头部加上`type: about`就能很好解决。
 
-```markdown
----
+````markdown
 title: about
+date:XXXX
 type: about
----
-```
+````
 这样就可以直接解决了！
 
 
