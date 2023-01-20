@@ -41,7 +41,7 @@ tags:
 ```
 
 这里贴一张截图，文档链接[在这][Vercel-doc]
-[![pSGkf1K.png][doc-pic]]
+![pSGkf1K.png][doc-pic]
 
 # _config.aurora.yml的修改
 
