@@ -1,12 +1,10 @@
 ---
 title: 解决Aurora主题的若干问题的方法
 date: 2023-01-20 18:05:02
-tags: 
- - 教程
- - Hexo
- - 建站
+tags: [教程,Hexo,建站]
 feature: true
 cover: https://s1.ax1x.com/2023/01/20/pSGAKE9.jpg
+type: post
 ---
 
 写这个主要是因为这个主题确实折腾了好久，这里就算作是备忘吧。  
