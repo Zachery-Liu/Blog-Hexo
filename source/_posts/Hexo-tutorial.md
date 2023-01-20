@@ -5,8 +5,8 @@ tags:
  - 教程
  - Hexo
  - 建站
- feature: true
- cover: https://s1.ax1x.com/2023/01/20/pSGAKE9.jpg
+feature: true
+cover: https://s1.ax1x.com/2023/01/20/pSGAKE9.jpg
 ---
 
 写这个主要是因为这个主题确实折腾了好久，这里就算作是备忘吧。  
