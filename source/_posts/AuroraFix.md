@@ -68,14 +68,13 @@ pretty_urls:
 
 # About 404的解决
 
-其实很简单，只需要在上面加上`type: about`就能很好解决。
+其实很简单，只需要在头部加上`type: about`就能很好解决。
 
-```markdown
----
+````markdown
 title: about
+date:XXXX
 type: about
----
-```
+````
 这样就可以直接解决了！
 
 
