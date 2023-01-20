@@ -43,10 +43,10 @@
               <a href="https://github.com/obsidianext/hexo-theme-obsidianext">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
                   Aurora
-                  (ZacheryLiu Modified)
-                  .
                 </b>
               </a>
+                 (ZacheryLiu Modified)
+                  .
             </li>
             <li>
               <p id="hitokoto">
