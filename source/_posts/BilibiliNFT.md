@@ -12,4 +12,4 @@ type: post
 
 (这个页面是用来测试 Bilibili 视频能不能放到文章里的，还是建议各位到 Bilibili 去看这个视频)
 
-{% bilicard BV1h3411S7as %}
+{% bilibili BV1h3411S7as %}

@@ -95,9 +95,11 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
 theme: aurora
+
+## Plugins: https://hexo.io/plugins/
 
 sitemap:
   path: 
@@ -108,6 +110,10 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+bilibili:
+  width: 452
+  height: 544
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
