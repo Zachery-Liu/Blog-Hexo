@@ -12,4 +12,4 @@ type: post
 
 (这个页面是用来测试 Bilibili 视频能不能放到文章里的，还是建议各位到 Bilibili 去看这个视频)
 
-{% bilibili BV1h3411S7as %}
+<iframe src="//player.bilibili.com/player.html?aid=434851165&bvid=BV1h3411S7as&cid=952095717&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
