@@ -93,7 +93,7 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
-  favicon: /favicon.ico
+  favicon: /ico/fav.ico
   description: 'ZacheryLiu 的个人博客'
   keywords: 'Zachery_Liu,ZacheryLiu,怀柔轩,wkn.icu,博客,Minecraft,开发,笔记,随笔'
   author: 'Zachery_Liu'
