@@ -830,6 +830,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hexo-bilibili-card@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.npmmirror.com/hexo-bilibili-card/-/hexo-bilibili-card-0.6.1.tgz#abfbb217289df852083004ef97426119c61dcedc"
+  integrity sha512-zCKUsL5KSXYmQtk4p7Y3KNHn65sYDPZmZ2VH9uJqYACH/XafpcclAqAGMEBlDzAOGOawendbpKJMV5eBWkwdsg==
+  dependencies:
+    node-fetch "^2.6.1"
+
 hexo-cli@^4.0.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.0.tgz"
@@ -884,6 +891,15 @@ hexo-generator-index@^2.0.0:
   dependencies:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
+
+hexo-generator-sitemap@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/hexo-generator-sitemap/-/hexo-generator-sitemap-3.0.1.tgz#6183995f918330c06d99aa18ca9de81dd8055841"
+  integrity sha512-n+0KLNmq6TLbiZPTQF6NY5MbEem/O+DFx0lgQZNQcU4tdjXIZRrQJs+KRKeT66NTkdlYTqb4WwCxswLqQz0crA==
+  dependencies:
+    hexo-util "^2.1.0"
+    micromatch "^4.0.2"
+    nunjucks "^3.1.6"
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -982,7 +998,7 @@ hexo-theme-landscape@^0.0.3:
   resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
   integrity sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==
 
-hexo-util@^2.0.0, hexo-util@^2.4.0, hexo-util@^2.7.0:
+hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.7.0.tgz"
   integrity sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==
@@ -1426,6 +1442,13 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-fetch@^2.6.1:
+  version "2.6.8"
+  resolved "https://registry.npmmirror.com/node-fetch/-/node-fetch-2.6.8.tgz#a68d30b162bc1d8fd71a367e81b997e1f4d4937e"
+  integrity sha512-RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
@@ -1448,7 +1471,7 @@ nth-check@~1.0.1:
   dependencies:
     boolbase "~1.0.0"
 
-nunjucks@^3.2.1:
+nunjucks@^3.1.6, nunjucks@^3.2.1:
   version "3.2.3"
   resolved "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.3.tgz"
   integrity sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==
@@ -1867,6 +1890,11 @@ tr46@^3.0.0:
   dependencies:
     punycode "^2.1.1"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 truncate-html@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/truncate-html/-/truncate-html-1.0.4.tgz#268de7ba2650d697d748f1692a78197a88886e9d"
@@ -1997,6 +2025,11 @@ warehouse@^4.0.0:
     rfdc "^1.1.4"
     through2 "^4.0.2"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
 webidl-conversions@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
@@ -2021,6 +2054,14 @@ whatwg-url@^11.0.0:
   dependencies:
     tr46 "^3.0.0"
     webidl-conversions "^7.0.0"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which@^2.0.1:
   version "2.0.2"

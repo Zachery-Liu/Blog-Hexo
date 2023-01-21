@@ -99,6 +99,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: aurora
 
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
