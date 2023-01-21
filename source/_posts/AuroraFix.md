@@ -58,7 +58,7 @@ type: post
 ```yml
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://tridiamond.tech
+url: https://www.wkn.icu
 permalink: /post/:title/
 permalink_defaults:
 pretty_urls:
