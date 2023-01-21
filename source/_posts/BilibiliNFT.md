@@ -12,4 +12,4 @@ type: post
 
 (这个页面是用来测试 Bilibili 视频能不能放到文章里的，还是建议各位到 Bilibili 去看这个视频)
 
-<iframe src="//player.bilibili.com/player.html?aid=434851165&bvid=BV1h3411S7as&cid=952095717&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=434851165&bvid=BV1h3411S7as&cid=952095717&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
