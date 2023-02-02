@@ -58,7 +58,7 @@ theme:
   gradient:
     color_1: '#18545A' #18545A
     color_2: '#8FDACA' #8FDACA
-    color_3: '#FFEFD5' #F1F2B5
+    color_3: '#F1F2B5' #F1F2B5
 
 #! ---------------------------------------------------------------
 #! Social Configs
