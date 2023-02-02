@@ -56,9 +56,9 @@ theme:
   profile_shape: rounded # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
-    color_1: '#F1F2B5' #18545A
-    color_2: '#8FDACA'
-    color_3: '#18545A'
+    color_1: '#18545A' #18545A
+    color_2: '#8FDACA' #8FDACA
+    color_3: '#FFFACD' #F1F2B5
 
 #! ---------------------------------------------------------------
 #! Social Configs
