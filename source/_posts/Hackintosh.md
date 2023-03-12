@@ -2,6 +2,7 @@
 title: RedmiBook14 黑苹果 EFI 及个人的思路
 date: 2023-03-12 19:07:59
 tags: [黑苹果，教程，EFI]
+cover: https://bing.com/th?id=OHR.SouthDownsSheep_ZH-CN8986424729_1920x1080.jpg&qlt=100
 type: post
 ---
 ## 前言
