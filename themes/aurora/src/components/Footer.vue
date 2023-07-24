@@ -1,7 +1,8 @@
 <template>
   <div id="footer" class="relative w-full pt-1" :style="gradientBackground">
     <span class="bg-ob-deep-900 flex justify-center">
-      <div class="
+      <div
+        class="
           bg-ob-deep-900
           rounded-lg
           max-w-10/12
@@ -15,8 +16,10 @@
           justify-center
           items-center
           gap-8
-        ">
-        <div class="
+        "
+      >
+        <div
+          class="
             flex flex-col
             lg:flex-row
             gap-6
@@ -25,11 +28,12 @@
             lg:col-span-3
             text-center
             lg:text-left
-          ">
+          "
+        >
           <ul class="flex flex-col gap-1.5">
             <li>
-              Copyright © 2020 - {{ currentYear }}
-              <b class="font-extrabold">Zachery_Liu</b>
+              Copyright © 2019 - {{ currentYear }}
+              <b class="font-extrabold">{{ themeConfig.site.author }}</b>
               . All Rights Reserved.
             </li>
             <li>
@@ -42,27 +46,31 @@
               & Themed by
               <a href="https://github.com/obsidianext/hexo-theme-obsidianext">
                 <b class="font-extrabold border-b-2 border-ob hover:text-ob">
-                  Aurora
+                  Aurora v{{ themeConfig.version }}
                 </b>
               </a>
-                 (ZacheryLiu Modified)
-                  .
+              .
             </li>
-            <li>
-              <p id="hitokoto">
-                <a href="#" id="hitokoto_text">:D 获取中...</a>
-              </p>
-            </li>
-            <li v-if="
+            <li
+              v-if="
                 themeConfig.site.beian.number !== '' ||
                 themeConfig.site.police_beian.number !== ''
-              " class="flex flex-row gap-3">
+              "
+              class="flex flex-row gap-3"
+            >
               <span v-if="themeConfig.site.police_beian.number !== ''">
-                <img class="inline-block" :src="require('@/assets/gongan-beian-40-40.png')" alt="" width="15" />
+                <img
+                  class="inline-block"
+                  :src="require('@/assets/gongan-beian-40-40.png')"
+                  alt=""
+                  width="15"
+                />
                 <b>
                   公安备案信息：
                   <a :href="themeConfig.site.police_beian.link">
-                    <b class="font-extrabold border-b-2 border-ob hover:text-ob">
+                    <b
+                      class="font-extrabold border-b-2 border-ob hover:text-ob"
+                    >
                       {{ themeConfig.site.police_beian.number }}
                     </b>
                   </a>
@@ -81,27 +89,37 @@
           <ul v-if="themeConfig.plugins.busuanzi.enable">
             <li>
               <span id="busuanzi_container_site_pv">
-                <svg-icon icon-class="eye" class="mr-1 text-lg inline-block" />
+                <SvgIcon icon-class="eye" class="mr-1 text-lg inline-block" />
                 <span id="busuanzi_value_site_pv" />
               </span>
             </li>
             <li>
               <span id="busuanzi_container_site_uv">
-                <svg-icon icon-class="people" class="mr-1 text-lg inline-block" />
+                <SvgIcon
+                  icon-class="people"
+                  class="mr-1 text-lg inline-block"
+                />
                 <span id="busuanzi_value_site_uv"></span>
               </span>
             </li>
           </ul>
         </div>
-        <div class="
+        <div
+          class="
             hidden
             lg:flex lg:col-span-1
             justify-center
             lg:justify-end
             row-span-1
             relative
-          ">
-          <img v-show="themeConfig.site.avatar" :class="avatarClass" :src="themeConfig.site.avatar" alt="avatar" />
+          "
+        >
+          <img
+            v-show="themeConfig.site.avatar"
+            :class="avatarClass"
+            :src="themeConfig.site.avatar"
+            alt="avatar"
+          />
         </div>
       </div>
     </span>
@@ -109,35 +127,37 @@
 </template>
 
 <script lang="ts">
-  import { computed, defineComponent } from 'vue'
-  import { useAppStore } from '@/stores/app'
-  import { useI18n } from 'vue-i18n'
+import { computed, defineComponent } from 'vue'
+import { useAppStore } from '@/stores/app'
+import { useI18n } from 'vue-i18n'
+import SvgIcon from '@/components/SvgIcon/index.vue'
 
-  export default defineComponent({
-    name: 'ObFooter',
-    setup() {
-      const appStore = useAppStore()
-      const { t } = useI18n()
+export default defineComponent({
+  name: 'ObFooter',
+  components: { SvgIcon },
+  setup() {
+    const appStore = useAppStore()
+    const { t } = useI18n()
 
-      return {
-        avatarClass: computed(() => {
-          return {
-            'footer-avatar': true,
-            [appStore.themeConfig.theme.profile_shape]: true
-          }
-        }),
-        gradientText: computed(
-          () => appStore.themeConfig.theme.background_gradient_style
-        ),
-        gradientBackground: computed(() => {
-          return { background: appStore.themeConfig.theme.header_gradient_css }
-        }),
-        currentYear: computed(() => new Date().getUTCFullYear()),
-        themeConfig: computed(() => appStore.themeConfig),
-        t
-      }
+    return {
+      avatarClass: computed(() => {
+        return {
+          'footer-avatar': true,
+          [appStore.themeConfig.theme.profile_shape]: true
+        }
+      }),
+      gradientText: computed(
+        () => appStore.themeConfig.theme.background_gradient_style
+      ),
+      gradientBackground: computed(() => {
+        return { background: appStore.themeConfig.theme.header_gradient_css }
+      }),
+      currentYear: computed(() => new Date().getUTCFullYear()),
+      themeConfig: computed(() => appStore.themeConfig),
+      t
     }
-  })
+  }
+})
 </script>
 
 <style lang="scss" scoped></style>

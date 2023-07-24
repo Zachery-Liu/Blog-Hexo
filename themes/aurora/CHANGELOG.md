@@ -1,11 +1,36 @@
-# Changelog
+## [1.0.1](https://github.com/Zachery-Liu/hexo-theme-aurora/compare/v1.0.0...v1.0.1) (2023-07-24)
 
-All notable changes to the "aurora-future" extension will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### Bug Fixes
 
-## [Unreleased]
+* auto build ([adc45b3](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/adc45b35bc5647fd6036e9fe5e2b335b55405d52))
+* node version fix ([b972a3e](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/b972a3e3ab012932a8c91a89593b26588f14ccd6))
+
+# 1.0.0 (2023-07-24)
+
+
+### Bug Fixes
+
+* code clip-board copy button style ([05450c5](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/05450c5de57a882ad004d92ab1e09b90af7e4913))
+* incorrect recent comment gavatar url with valine [#225](https://github.com/Zachery-Liu/hexo-theme-aurora/issues/225) ([bfcf168](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/bfcf168df44723827943fcbb855de0448065dee2))
+* main author not able to load in home page ([667e1df](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/667e1dff215164db3e86573382333b4abdd31988))
+* mobile view not able to fetch author data ([2e4d0cd](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/2e4d0cd59ac5f84f87720cfb155298909709f934))
+* modify ([0778221](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/0778221ab8dbcf327e42d2b24ae82e906fe69a0a))
+* recent comment is not hiding with correct setting ([91358ad](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/91358ad7b723b059a01275c3c35472e849ff4ce9))
+* recent comments always show ([0976e5c](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/0976e5c196262ddbeadceac0d3684d1b62d9393a))
+* remove qod since it's rated limited to 5 calls a day ([75e99da](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/75e99daaed9c30c7d51d185e3f9db5e453e22275))
+* typescript typing issue for Post ([1c58e55](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/1c58e5592d8e88015326b68ffca6d057724018ec))
+* use new import for default image instead of require ([6d1b078](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/6d1b078b5747f2fe1c007556866de2f6a4308a67))
+
+
+### Features
+
+* **vite/dependencies:** updated to Vite and all dependencies ([162df85](https://github.com/Zachery-Liu/hexo-theme-aurora/commit/162df85018b02de009443b1afb90d2b24b7cbe3e))
+
+
+### BREAKING CHANGES
+
+* **vite/dependencies:** changed to Vite and updated all dependencies
 
 ## [1.5.5] - 2021-06-25
 

@@ -21,6 +21,11 @@
         {{ themeConfig.site.nick || 'BLOG' }}
       </span>
     </div>
+    <img
+      class="logo-image"
+      :src="themeConfig.site.logo || themeConfig.site.avatar"
+      alt="site-logo"
+    />
   </div>
 </template>
 
